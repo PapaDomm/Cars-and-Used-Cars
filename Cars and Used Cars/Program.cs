@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿//welcome
+using Cars_and_Used_Cars;
+
+Console.WriteLine("Welcome to our Used Car Emporium!");
+
+Car c = new Car("Chrysler", "Town and Country", 2012, 40000);
+Console.WriteLine(c.ToString());
