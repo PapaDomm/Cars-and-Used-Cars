@@ -36,7 +36,7 @@ namespace Cars_and_Used_Cars
         //methods
         public virtual string ToString()
         {
-            return string.Format("{0, -10} {1, -12} {2, 5} {3, 11:C}", make, model, year, price);
+            return string.Format("{0, -10} {1, -12} {2, 5} {3, 15:C}", make, model, year, price);
         }
 
     }
