@@ -39,5 +39,18 @@ namespace Cars_and_Used_Cars
             return string.Format("{0, -10} {1, -12} {2, 5} {3, 15:C}", make, model, year, price);
         }
 
+        public static void ListCars(List<Car>Cars)
+        {
+            for (int i = 0; i < Cars.Count(); i++)
+            {
+                Console.WriteLine($"{Cars[i].ToString()}");
+            }
+
+        }
+
+        public static void Remove(int num, List<Car>Cars )
+        {
+            Cars.RemoveAt(num);
+        }
     }
 }
