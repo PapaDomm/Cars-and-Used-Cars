@@ -22,7 +22,7 @@ namespace Cars_and_Used_Cars
         //methods
         public override string ToString()
         {
-            return string.Format("{0, -10} {1, -12} {2, 5} {3, 15} {4, 7}", make, model, year, price, mileage);
+            return string.Format("{0, -10} {1, -18} {2, 5} {3, 15:C} {4, 7}", make, model, year, price, mileage);
         }
 
     }
